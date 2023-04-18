@@ -1,8 +1,15 @@
-﻿class Program
+﻿using System.Diagnostics;
+
+namespace CSharpStudy
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World!");
-        return;
+        static void Main(string[] args)
+        {
+            NullCheckPerformance instance = new NullCheckPerformance();
+            instance.Play();
+            return;
+        }
+
     }
 }
